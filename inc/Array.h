@@ -47,6 +47,10 @@ typedef enum
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions --------------------------------------------------------*/
 ARRAY_Status ARRAY_Display_Values(int Array[], int Length);
+ARRAY_Status ARRAY_Display(int Array[], int Length);
+ARRAY_Status ARRAY_Invert(int Array[], int Length);
+ARRAY_Status ARRAY_RightRotate(int Array[], int Length, int NB_Shift);
+ARRAY_Status ARRAY_LeftRotate(int Array[], int Length, int NB_Shift);
 
 
 
